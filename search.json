@@ -1,0 +1,340 @@
+[
+  {
+    "objectID": "posts/l2.html",
+    "href": "posts/l2.html",
+    "title": "Lesson 2 - Policy and Ethics for Experiments",
+    "section": "",
+    "text": "udacity\nNotes from Udacity A/B Testing course.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Segregation and Peer Effects"
+    ]
+  },
+  {
+    "objectID": "posts/l2.html#tuskegee-and-milgram-experiments",
+    "href": "posts/l2.html#tuskegee-and-milgram-experiments",
+    "title": "Lesson 2 - Policy and Ethics for Experiments",
+    "section": "Tuskegee and Milgram experiments",
+    "text": "Tuskegee and Milgram experiments\nSome famous experiments where the experiments hurt the participants\n\nthe Tuskegee Syphilis Study where 500 participants were promised medical care but were not informed of their Syphilis diagnosis and did not get treatemnt although penecilin was available since 1942 and as a result over a 100 died while the study continued. The experiment also has no scientific merit as it was not conducted properly so as to permit collection and estimation of the statistics it claimed to study.\nthe Milgram experiment required participants to torture people by electrecuting them on a prompt from an authority figure. While the person getting tortured was an actor, many of participants were psychologically hurt by the experiment.\nthe Facebook experiment a massive psychological experiment at Facebook with 700,000 unwitting users considering how users are impacted by the content of their feed.\n\nIRB or Institutional Review Board were setup in mostly academic institutions to certify that experiments were conducted according to ethical guidelines and to proect and inform the participants of the experiment.\nIt is a grey area as to whether many of these Internet studies should be subject to IRB review or not and whether informed consent is required. Neither has been common to date.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Segregation and Peer Effects"
+    ]
+  },
+  {
+    "objectID": "posts/l2.html#four-principles-of-ab-test",
+    "href": "posts/l2.html#four-principles-of-ab-test",
+    "title": "Lesson 2 - Policy and Ethics for Experiments",
+    "section": "Four principles of A/B Test",
+    "text": "Four principles of A/B Test\nNext we consider the principles of coonducting ethical A/B testing. The following are the four main principles that IRB’s look for.\n\nAssessing Risk\nwhat risk is the participant undertaking?\n\nIdentifying the Risk It is crucial to determine the specific risks that participants might face when participating in an experiment or study. Risks can be categorized into various dimensions, including physical, psychological, emotional, social, and economic concerns. By identifying these risks, researchers can better understand the potential harm that participants might encounter.\nMinimal Risk The main threshold for assessing risk is whether it exceeds the concept of “minimal risk.” Minimal risk refers to the probability and magnitude of harm that a participant would typically encounter in their normal daily life. It serves as a baseline comparison to evaluate the level of risk involved in the study.\nInformed Consent If the identified risks go beyond the scope of minimal risk, obtaining informed consent from participants becomes necessary. Informed consent ensures that participants are fully aware of the potential risks involved in the study and voluntarily agree to participate. Researchers must provide clear and comprehensive information about the risks, benefits, and any other relevant details to enable participants to make an informed decision.\n\n\n\nBenefits\n\nWhat benefits might result from the study?\nEven if the risk is minimal, how might the results help? In most online A/B testing, the benefits are around improving the product.\nIt is important to be able to state what the benefit would be from completing the study.\n\n\n\nAlternatives\nWhat other choices do participants have? \nFor example, if one istesting changes to a search engine, participants always have the choice to use another search engine. The fewer alternatives participants have, the more the test becomes coercive. Whether participants have a choice in whether to participate or not, and how that balances against the risks and benefits is at the crucx of the matter.\nIn online experiments, the issues to consider are what the other alternative services that a user might have, and what the switching costs might be, in terms of time, money, information, etc.\n\n\nData Sensitivity\nFinally, what data is being collected, and what is the expectation of privacy and confidentiality\n\nDo participants understand what data is being collected about them?\nWhat harm would befall them should that data be made public?\nWould they expect that data to be considered private and confidential?\nFor new data being collected and stored, how sensitive is the data, and what are the internal safeguards for handling that data? E.g., what access controls are there, how are breaches to that security caught and managed, etc.?\nFor that data, how will it be used and how will participants’ data be protected? How are participants guaranteed that their data, which was collected for use in the study, will not be used for some other purpose? This becomes more important as the sensitivity of the data increases.\nWhat data may be published more broadly, and does that introduce any additional risk to the participants?\n\nWhen new data is being gathered, then the questions come down to:\n\nWhat data is being gathered? How sensitive is it? Does it include financial and health data?\nCan the data being gathered be tied to the individual, i.e., is it considered personally identifiable?\nHow is the data being handled, with what security? What level of confidentiality can participants expect?\nWhat harm would befall the individual should the data become public, where the harm would encompass health, psychological / emotional, social, and financial concerns?",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Segregation and Peer Effects"
+    ]
+  },
+  {
+    "objectID": "posts/l2.html#summary-of-principles",
+    "href": "posts/l2.html#summary-of-principles",
+    "title": "Lesson 2 - Policy and Ethics for Experiments",
+    "section": "Summary of Principles",
+    "text": "Summary of Principles\nMost studies, due to the nature of the online service, are likely minimal risk, and the bigger question is about data collection with regards to identifiability, privacy, and confidentiality / security. That said, arguably, a neutral third party outside of the company should be making these calls rather than someone with a vested interest in the outcome. One growing risk in online studies is that of bias and the potential for discrimination, such as differential pricing and whether that is discriminatory to a particular population for example.\nThe recommendation is that there should be internal reviews of all proposed studies by experts regarding the questions:\n\nAre participants facing more than minimal risk?\nDo participants understand what data is being gathered?\nIs that data identifiable?\nHow is the data handled?\nAnd if enough flags are raised, that an external review happen.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Segregation and Peer Effects"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html",
+    "href": "posts/l5.html",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "",
+    "text": "udacity\nNotes from Udacity A/B Testing course.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#intro",
+    "href": "posts/l5.html#intro",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Intro",
+    "text": "Intro\n\n\n\n\n\n\n\nFigure 1: Introduction\n\n\nIn Figure 1 Caroline assumes you’ve already chosen metrics, designed, and sized your experiment. We now focus on analyzing the results and drawing conclusions.\n\nThe process involves:\n\nSanity checks: Verifying data integrity.\nEvaluation: Handling single or multiple metrics to assess the change’s impact.\nAnalysis gotchas: Avoiding common pitfalls in interpreting results.\n\n\nRemember A/B testing is iterative, meaning insights from analysis may influence future steps in designing your test.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#sanity-check",
+    "href": "posts/l5.html#sanity-check",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Sanity Check",
+    "text": "Sanity Check\n\n\n\n\n\n\n\nFigure 2: Sanity Check\n\n\nIn Figure 2 Diane warns Caroline against jumping straight into analyzing click-through rates from her experiment. Diane quickly enumerates many ways experiments may go awary. Conducting sanity checks is crucial prior to analysis. These checks ensure the experiment has ran correctly and the data is reliable.\nTwo main types of sanity checks are defined as:\n\nPopulation sizing metrics\n\nVerify that the experiment and control groups are comparable in size based on the diversion unit.\n\nInvariant metrics\n\nMetrics should not change due to the experiment itself. Analyzing their change helps identify potential issues.\n\n\nOnly after passing these checks should you dive deeper into more complex analysis to interpret the experiment’s success or failure and make recommendations.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#choosing-invariants",
+    "href": "posts/l5.html#choosing-invariants",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Choosing Invariants",
+    "text": "Choosing Invariants\n\n\n\n\n\n\n\nFigure 3: Choosing Invariants\n\n\nIn Figure 3 we get started with sanity checking our experiment results by picking the right invariant metrics. As Diane said, there are two types:\n\nPopulation sizing metrics: These make sure the experiment and control groups are comparable in size, based on the diversion unit.\nOther invariant metrics: Any metrics that shouldn’t change due to the experiment itself.\n\nNow, I’ll describe two experiments. For each one, think about what metrics would stay the same, meaning they wouldn’t differ between the control and experiment groups.\n\nExample 1 Experiment 1: Changing course order\nUdacity is testing a new way of ordering courses in the course list to see if it affects enrollment. Each user ID is considered a single unit of diversion, since users might browse before enrolling.\n\n\nExample 2 Experiment 2: Changing video infrastructure\nUdacity is implementing a new system to deliver videos faster. This time, each event (like a video play) is considered a unit of diversion.\n\nNow, we should decide which of these metrics would be good invariant for each experiment:\n\nNumber of signed-in users\nNumber of cookies\nNumber of events\nClick-through rate (CTR) on the “Start Now” button (This button takes users from the homepage to the course list.)\nAverage time to complete a course\n\nRemember, an invariant metric should not change because of the experiment itself. Choose the ones that fit that criteria for each experiment\n\n\n\n\n\n\nInvariant Metric\ncourse order\nvideo infrastructure\n\n\n\n\nunit of diversion\nUID\nevent\n\n\n# signed-in users\n:x:\n:x:\n\n\n# cookies\n:x:\n:x:\n\n\n# events\n:x:\n:x:\n\n\nCTR for “Start Now” button\n:x:\n:x:\n\n\nAvg. time to complete\n:o:\n:x:\n\n\n\n\n\nTable 1: Invariant Metrics for experiment 1 & 2\n\n\n\nThese are questions used the instructor to test the invariance for each metric.\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuestion\n\nDecision\n\n\n\n\n1.\nis the metric directly randomized?\n\\(\\implies\\)\ninvariant\n\n\n2.\nis the metric expected to be evenly split between the two groups?\n\\(\\implies\\)\ninvariant\n\n\n3.\nis the metric measured before the test begins ?\n\\(\\implies\\)\ninvariant\n\n\n4.\nis the metric altered by the experiment ?\n\\(\\implies\\)\nnot an invariant\n\n\n5.\nis the metric impossible to tracked?\n\\(\\implies\\)\nnot an invariant\n\n\n6.\ncan the metric be assigned to different groups multiple times ?\n\\(\\implies\\)\nnot an invariant\n\n\n\n\n\nTable 2: Invariance diagnostics\n\n\n\n\nExample 3 Experiment 3: Change Sign in to be on all pages\nUdacity changes the “sign in” button to be on all pages.\nThe unit diversion is a cookie\n\n\n\n\n\n\n\n\n\n\n\n\nInvariant Metric\ncourse order\nnote\n\n\n\n\nunit of diversion\ncookie\n\n\n\n# events\n:x:\nthis, # cookeis # users are all good\n\n\nCTR for “Start Now” button\n:o:\nthis will change\n\n\nProbability of enrolling\n:o:\nshould also change\n\n\nSign-in rate\n:o:\nthis is the metric we are testing\n\n\nVideo load time\n:x:\nshould not change\n\n\n\n\n\nTable 3: Invariant Metrics for experiment 3",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#checking-invariants",
+    "href": "posts/l5.html#checking-invariants",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Checking Invariants",
+    "text": "Checking Invariants\n\n\n\n\n\n\n\nFigure 4: Checking Invariants\n\n\nIn Figure 4 we get down to business and see how to check an invariant metric and ensure it’s similar between the control and experiment groups.\nSay you ran a two-week experiment with cookies as your diversion unit. The first sanity check: comparing the number of cookies in each group.\nHere’s the data:\n\n\n\n\n\n\n\n\n\n\n\nDay\ncontrol\nexperiment\n\n\n\n\nMon\n5077\n4877\n\n\nTue\n5495\n4729\n\n\nWed\n5294\n5063\n\n\nThu\n5446\n5035\n\n\nFri\n5126\n5010\n\n\nSat\n3382\n3193\n\n\nSun\n2891\n3226\n\n\n\n\n\n(a) Week 1 cookies for control & experiment\n\n\n\n\n\n\n\n\n\n\n\nDay\ncontrol\nexperiment\n\n\n\n\nMon\n5029\n5092\n\n\nTue\n5166\n5048\n\n\nWed\n4902\n4985\n\n\nThu\n4923\n4805\n\n\nFri\n4816\n4741\n\n\nSat\n3411\n2939\n\n\nSun\n3496\n3075\n\n\n\n\n\n(b) Week 2 cookies for control & experiment\n\n\n\n\n\n\n\nTable 4: Experiment 3 results\n\n\n\nNow, let’s look at the total number of cookies in each group. If that overall split seems balanced, that’s great. Otherwise, we’ll need to dig deeper into the day-by-day breakdown.\nThe totals show:\n\nControl group: 64,454 cookies\nExperiment group: 61,818 cookies\n\nWhile the control group has more cookies, the question is: is this difference unexpected?\nThink about it this way: each cookie was randomly assigned to either group with a 50% chance. So, the real question is: is it surprising that out of the total cookies, 64,454 ended up in the control group?\nLet’s say that our \\(H_0\\) null-hypothesis is that there is no difference between the groups. Or that the the probability for the data generating process is 0.5\n\n\n\nChecking Invariants II\n\nWe can think about this IID draws from a Bernoulli distribution which we assume that p=0.5\nSums of Bernoulli trials follow the Binomial distribution\nSince N = 126272 &gt;&gt; 20 We can approximated the Binomial with a Gaussian distribution.\nWe can therefore test if the sd of the control and experiment are within CI for 95%\nTo do so we should first apply a Z transform and check against the standard normal.\n\nfor CI of .95 Z = 1.96 \\[\nCI = p \\pm z \\times SE = p \\pm z \\times \\sqrt{\\frac{p(1-p)}{N}} = 0.5 \\pm 1.96 \\times p \\times 126272 ^{-2} \\qquad\n\\tag{1}\\]\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Define parameters\np = 0.5\nN = 126272\nz = 1.96  # 95% confidence level\n\n# Calculate confidence interval bounds\nlower_bound = p - z * (p * (1 - p) / N)**0.5\nupper_bound = p + z * (p * (1 - p) / N)**0.5\n\n# lets create a df\n\nalpha = 0.05\nmethod = 'normal'\n\n# for experiment\nname='experiment'\ncount = 61818\nproportion = count/N\nexeriment = {'name':name, 'count':count, 'lb':lower_bound,'ub':upper_bound,\"proportion\":proportion}\n\n# for control\nname='control'\ncount = 64454\nproportion = count/N\ncontrol= {'name':name, 'count':count, 'lb':lower_bound,'ub':upper_bound,\"proportion\":proportion}\n\n\ndf = pd.DataFrame.from_records(data=(exeriment,control),index=['1', '2'])\ndf\n\n\n\n\n\n\n\n\nname\ncount\nlb\nub\nproportion\n\n\n\n\n1\nexperiment\n61818\n0.497242\n0.502758\n0.489562\n\n\n2\ncontrol\n64454\n0.497242\n0.502758\n0.510438\n\n\n\n\n\n\n\n\nimport altair as alt\nimport matplotlib.pyplot as plt\n\npoints = alt.Chart(df).mark_point(filled=True, color='black').encode(\n  x=alt.X('name:N'),\n  y=alt.Y('proportion:Q'),\n)\n\nerror_bars = alt.Chart(df).mark_errorbar().encode(\n  x = alt.X('name:N'),\n  y = alt.Y('lb:Q').scale(zero=False).title(\"lb\"),\n  y2= alt.Y2('ub:Q').title(\"ub\"),\n)\n\npoints + error_bars\n\n\n\n\n\n\n\n\n\nFigure 5: Binomial Confidence Intervals\n\n\n\n\nso this is not an error in the calculation - we can plainly see that the two groups are significantly outside the CI. This means that we are not getting the same behavior for each group. Sanity test fails 🤡\nFurther analysis shows that the control is getting more cookies daily.\nNote we can perform this analysis more directly under the Bayesian paradigm using a Beta prior and a Binomial Likelihood.\nHere is the instructors analysis:\n\nGiven: Each cookie is randomly assigned to the control or experiment group with probability \\(p = 0.5\\). Use this to compute SD of binomial with probability 0.5 of success. Calculate the confidence interval. The observed fraction of control group is greater than the upper bound of CI =&gt; there is something wrong with the setup.\nDo day-by-day analysis. If control group samples are more on a lot of dates, not just a specific day, we can\n\nTalk to the engineers about experiment infrastructure, unit of diversion, etc.\nTry slicing to see if one particular slice is weird, e.g. country, language, platform.\nCheck the age of cookies — does one group have more new cookies\nRetrospective analysis: recreate the experiment diversion from the data capture to understand the problem.\nPre- and post-period: check invariant. If similar changes exist on the pre-period, it could be problems with the experiment infrastructure (e.g. cookie reset), setup (e.g. not filter correctly between groups), etc. If the changes are only observed in the post-period, the issue may be associated with the experiment itself such as data capture (e.g. capture correctly in trt but not in control). Learning effect may take time. If the issues are observed at the beginning of the experiment, might not be learning effect.\n\n\n\n\n\n\n\n\nDay\ncontrol\nexperiment\n\n\n\n\nMon\n2451\n2404\n\n\nTue\n2475\n2507\n\n\nWed\n2394\n2376\n\n\nThu\n2482\n2444\n\n\nFri\n2374\n2504\n\n\nSat\n1704\n1612\n\n\nSun\n1468\n1465\n\n\n\n\n\nTable 5: Another experiment\n\n\n\n\n\n\nChecking Invariants II Solved",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#sanity-checking-wrap-up",
+    "href": "posts/l5.html#sanity-checking-wrap-up",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Sanity Checking: Wrap-up",
+    "text": "Sanity Checking: Wrap-up\n\n\n\n\n\n\n\nFigure 6: Sanity Checking: Wrapup\n\n\nIn Figure 6 Diane point out that failing a sanity check in your experiment is like landing on “do not pass GO” in Monopoly. It means you shouldn’t proceed with analyzing the results until you understand why the check failed.\nHere’s what to do if your sanity check fails:\n\nDebug the experiment setup:\n\nCollaborate with engineers to check:\n\nTechnical issues: Is there something wrong with the experiment infrastructure or the way it’s set up?\nDiversion issues: Did the experiment assign users to groups correctly?\n\n\nRetrospective analysis:\n\nTry recreating experiment diversion from the data to understand if the issue is inherent to the experiment itself.\n\nUtilize pre and post periods:\n\nCompare the invariant metrics in the pre-period (before the experiment) to those in the experiment and post-period (after the experiment).\n\nIf the change only occurs in the experiment period, it points to an issue with the experiment itself (data capture, etc.).\n\n\nIf the change occurs in both the pre-period and experiment, it suggests an infrastructure issue.\n\nRemember:\n\nFailing a sanity check doesn’t necessarily mean there’s a major problem, but it does require investigation before drawing conclusions.\nEven with passing checks, slight differences in metrics are expected due to random chance.\nLearning effects (users adapting over time) can also impact results. Look for a gradual increase in change over time, not an immediate significant change.\n\nIf all checks pass, then you can move on to analyzing the experiment results.\nNote: when I run A/B test for clients at an advertising agency. I used tested framework like Google Analytics, VWO, Crazy Egg, and Firebase to run them and none of this was a major issue. However, many people have had test that run awry, so sanity tests are not such a bad idea.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#a-single-metric",
+    "href": "posts/l5.html#a-single-metric",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "A Single Metric",
+    "text": "A Single Metric\n\n\n\n\n\n\n\nFigure 7: Single Metric: Introduction\n\n\nIn Figure 7 Carey, explained how to analyze the results of an A/B experiment with a single evaluation metric.\nThe goal: Decide if the experiment had a statistically significant, positive impact on the metric, and estimate the size and direction of the change. This information helps you decide whether to recommend launching the experiment broadly.\nSteps involved:\n\nCharacterize the metric: Understand its variability (covered in Lesson 3).\nEstimate experiment parameters: Use the variability to determine how long to run the experiment and how many users to include (covered in Lesson 4).\nAnalyze for statistical significance:\n\nCombine the information from steps 1 and 2 to estimate the variability for analyzing the experiment.\nUse statistical tests (like hypothesis tests) to assess if the observed change is statistically significant, meaning it’s unlikely due to random chance.\n\n\nWhat to do if the results are not statistically significant:\n\nFurther analysis:\n\nLook for patterns by segmenting the data (e.g., by platform, day of the week). This might reveal bugs or suggest new hypotheses.\nCompare your results with other methods (e.g., non-parametric tests) to confirm or explore inconsistencies.\n\nConsider the possibility that the observed change, although not statistically significant, might still be valuable for the business.\n\n\nWhat not to do if your results aren’t significant\nCarrie gave some ideas of what you can do if your results aren’t significant, but you were expecting they would be. One tempting idea is to run the experiment for a few more days and see if the extra data helps get you a significant result. However, this can lead to a much higher false positive rate than you expecting! See How Not To Run an A/B Test by Evan Miller for more details. Instead of running for longer when you don’t like the results, you should be sizing your experiment in advance to ensure that you will have enough power the first time you look at your results.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#overview-of-how-not-to-run-an-ab-test-avoiding-repeated-significance-testing-errors-by-evan-miller",
+    "href": "posts/l5.html#overview-of-how-not-to-run-an-ab-test-avoiding-repeated-significance-testing-errors-by-evan-miller",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Overview of How Not To Run an A/B Test: Avoiding Repeated Significance Testing Errors by Evan Miller",
+    "text": "Overview of How Not To Run an A/B Test: Avoiding Repeated Significance Testing Errors by Evan Miller\n\n\n\n\nno peeking\n\nThe blog post recommended in this lesson explains how “peeking” at A/B test results and stopping the experiment based on interim significance can lead to misleading conclusions.\nHere’s the key takeaway:\nProblem:\n\nA/B testing software will often displays “chance of beating original” or “statistical significance” during the experiment.\nThese are estimates with a strong assumption of a fixed sample size set before starting the experiment.\nExperiment will switch between favouring A and B many times and as this happens it will loose and then regain statistical significance.\nIf you Peek at the data and stopp the experiment early this not only violates the assumption of a fixed sample size it also inflates the reported significance level.\nActually it is much worse is you stop early (e.g., when it first shows significance) you have cherry picked the result. The statistical significance isn’t just inflated it is meaningless.\n\nConsequences:\n\nYou might wrongly conclude that an insignificant difference is actually significant (false positive).\nThink about it - it is like stopping the election when less than 10% of the votes are counted - there is little reason to think you really seen the big picture.\nThe more you peek, the worse the problem gets.\n\nSolutions:\n\nFor experimenters:\n\nFix the sample size in advance and stick to it, regardless of interim results.\nAvoid peeking at the data or stopping early.\nUse the formula n=16σ²/δ² as a rule of thumb to estimate the required sample size, considering the desired effect size (δ) and expected variance (σ²). -For A/B testing software developers:\nDon’t show significance levels until the experiment ends.\nInstead, report the detectable effect size based on current data.\nConsider removing “current estimate” of the treatment effect.\n\nAdvanced options:\n\nSequential experiment design: Predefined checkpoints to decide on continuing the experiment while maintaining valid significance levels.\nBayesian experiment design: Allows stopping the experiment and making valid inferences at any time, potentially better suited for real-time web experiments.\n\n\nConclusion:\n\nDon’t rely on preliminary significance indicators in A/B testing dashboards.\nFix the sample size upfront and avoid peeking at data to ensure reliable results.\nConsider advanced techniques like sequential or Bayesian designs for greater flexibility.\n\nA couple of comments:\n\nMost people, data scientists, included don’t have a clue estimating statistical power, effect sizes the sample size required to reach significance for an a/b test. Given all that they have even less of a clue on the Practical significance of the test which is what matters in the business setting and what creates the costs for the loosing\nA Bayesian design is definitely better than the frequentist approach - particularly if it figures in the cost of testing each arm.\nThe only thing in your favour is that you can get an easy win or two if you have not done any a/b testing. Afterwards it gets harder and harder to get a large effect size.\n\n\n\n\n\n\n\n\nFigure 8: Single Metric: Example\n\n\n\nExample 4 change color and placement of Start Now button\n\nmetric: CTR\nUnit of diversion: cookie \\[d_{min}=0.01,\\quad  \\alpha=0.05,\\quad \\beta=0.2\\]\n\n\n\nimport numpy as np\nXs_cont = np.asarray([196, 200, 200, 216, 212, 185, 225, 187, 205, 211, 192, 196, 223, 192])\nNs_cont = np.asarray([2029, 1991, 1951, 1985, 1973, 2021, 2041, 1980, 1951, 1988, 1977, 2019, 2035, 2007])\nXs_exp = np.asarray([179, 208, 205, 175, 191, 291, 278, 216, 225, 207, 205, 200, 297, 299])\nNs_exp = np.asarray([1971, 2009, 2049, 2015, 2027, 1979, 1959, 2020, 2049, 2012, 2023, 1981, 1965, 1993])\n\ndata = {\n  \"clicks_cont\": Xs_cont,\n  \"views_cont\":  Ns_cont,\n  \"ctr_cont\":    Xs_cont/Ns_cont,\n  \"clicks_exp\":  Xs_exp,\n  \"views_exp\":   Ns_exp,\n  \"ctr_exp\":    Xs_exp/Ns_exp,\n}\n\ndf = pd.DataFrame.from_dict(data)\ndf\n\nd_min = 0.01\nalpha = 0.05\nempirical_se   = 0.062\nepirical_views = 5000 # per group\n\neffect_size=0\n#sign_test= statsmodels.stats.descriptivestats.sign_test(df[], mu0=0)",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#single-metric-gotchas",
+    "href": "posts/l5.html#single-metric-gotchas",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Single Metric: Gotchas",
+    "text": "Single Metric: Gotchas\n\n\n\n\n\n\n\nFigure 9: Single Metric: Gotchas\n\n\nIn Figure 9 the instructor discusses Simpson’s Paradox\nWe start with sime definitions\n\nConflicting results\n\nWhen statistical tests disagree, like sign test and hypothesis test, or results differ across subgroups, a closer look at the data is necessary.\n\nSimpson’s paradox\n\nThis phenomenon occurs when a trend appears in the overall data but reverses direction when analyzed within subgroups.\n\nSubgroup analysis\n\nExamining data within relevant subgroups like departments, platforms, or user types can reveal hidden patterns.\n\nConfounding variables\n\nVariables not directly measured but influencing the observed relationship can lead to misleading interpretations.\n\n\nThe example is a well known result regarding admissions to Berkley University\nExample:\nBerkeley admissions: In aggregate, women had a lower acceptance rate than men. However, analyzing by department showed women had higher acceptance rates in some departments but applied more to lower acceptance departments, leading to the overall trend.\nApplication:\nExperiment analysis: Similar to the Berkeley admissions example, experiment results can be misleading if analyzed without considering subgroup behavior.\nFurther Learning:\nThe speaker mentions an upcoming example of how Simpson’s paradox affects experiment analysis.\nRemember:\n\nNon-significant results don’t necessarily mean there’s no effect, but they require further investigation before drawing conclusions.\nSee if there’s a significant difference. If not as expected, break/slice and check the results. It helps with debugging the experiment setup, and get new hypotheses.\nSimpson Paradox. Although for each subgroup it seems that CTR has improved, the overall CTR was not improved. We cannot say the experiment is successful. Need to dig deeper to understand what caused the difference between new users and experienced users.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l5.html#multiple-metrics",
+    "href": "posts/l5.html#multiple-metrics",
+    "title": "Lesson 5 - Analyzing Results",
+    "section": "Multiple Metrics",
+    "text": "Multiple Metrics\n\nChallenge: When evaluating multiple metrics simultaneously, random chance increases the likelihood of seeing seemingly significant differences that aren’t truly meaningful. (Lines 3-7)\nMitigating factors:\n\nRepeatability: If the “significant” difference doesn’t occur again in repeated experiments (e.g., different days, data slices, or bootstrap analysis), it’s likely a chance finding. (Lines 8-11)\nMultiple Comparisons: This technique adjusts the significance level to account for the number of metrics tested, reducing the probability of false positives. (Lines 13-15)\n\nApplications:\n\nExploratory Data Analysis (EDA): Multiple comparisons help identify consistently significant metrics and avoid overfitting to random noise. (Lines 19-21)\nAutomatic Alerting: When setting up alerts based on significant changes in metrics, using multiple comparisons helps prevent false positives triggering alerts. (Lines 22-24)\n\n\n\nMultiple comparison problem\nAs you test more metrics, it becomes more likely that one of them will show a statistically significant result by chance. - In other words, the probability of any false positive increases as you increase the number of metrics. - For example, when we measure 3 independent metrics at the same time, alpha = 0.05, the probability that at least one metric by chance is significant (False Positive) is\n- $P(FP=0) = 0.95*0.95*0.95 = 0.857$ \n- so $P(FP≥1) = 1-P(FP=0) = 1–0.857 = 0.143$\n- Solution: Use a higher confidence level for each metric\n\nMethod 1: Set up an overall alpha and use it to calculate each individual alpha. Assume independence.\n\n\\[\\alpha_{overall} = 1 - ( 1 - \\alpha_{individual})^n\\]\n\nMethod 2: Bonferroni correction.\n\n\\(\\alpha_{individual} = \\alpha_{overall}/n\\)\nA problem with Bonferroni correction is, if our metrics are correlated, they tend to move at the same time. In this way, the method is too conservative – it results in less significant difference.\nSolution: 1 Use false discovery rate $ FDR = E( ) $ instead of family-wise error rate (FWER, control probability that any metric shows a false positive)\nSolution: 2️ Use less conservative multiple comparison methods, e.g. closed testing procedure, Boole-Bonferroni bound, and Holm-Bonferroni method.\n\n\nFocus on Business Goals\nOverall evaluation criteria (OEC) should be established based on an understanding of what your company is doing and what the problems are. It should balance long-term and short-term benefits. Business analysis is needed to make the decision. Once you have some candidates of OEC, you can run a few experiments to see how they steer you (whether in the right direction).\n\n\nWhether to launch an experiment or not??\n\nStatistically and practically significant to justify the change?\nDo you understand what the change can do to the user experience?\nIs it worth the investment?\n\n\n\nRamp up A/B test\n\nStart with 1% of the traffic and divert to experiment and increase that until the feature is fully launched.\nDuring the ramp-up process, effects may not be statistically significant even if they are significant before. Reason:\n\nSeasonality such as school season, holiday, etc. 🌟\n\nSolution: have a holdback group (launch the experiment to everyone except for a small holdback who doesn’t get the change, and you continue to compare them to the control)\n\nNovelty effect or change aversion: as users discover or change their adoption of your change, their behavior can change and measured effect can change — can do cohort analysis. 🌟\n\nSolution: Pre- and post-period analysis with cohort analysis to understand the learning effect — i.e. how users adapt to the changes over time.\n\n\nBusiness-wise, need to consider the engineering cost of maintaining the change, if there are customer support or sales issue, opportunity cost, etc.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Thinking Electrons Modelling People"
+    ]
+  },
+  {
+    "objectID": "posts/l3.html",
+    "href": "posts/l3.html",
+    "title": "Lesson 3 - Choosing and Characterizing Metrics",
+    "section": "",
+    "text": "udacity\nNotes from Udacity A/B Testing course.\nOne should think about how one intends to use these metrics before defining them.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Aggregation"
+    ]
+  },
+  {
+    "objectID": "posts/l3.html#definitions-and-data-capture",
+    "href": "posts/l3.html#definitions-and-data-capture",
+    "title": "Lesson 3 - Choosing and Characterizing Metrics",
+    "section": "Definitions and Data Capture",
+    "text": "Definitions and Data Capture\n\nSanity Checking / Invariant Checking: to make sure the experiment is run properly. These metrics should remain unchanged between control and experiment groups, e.g. Is population the same? Is distribution the same?\nEvaluation:\n\nHigh-level business metrics: revenue, market share, how many users\nMore detailed metrics that reflect the user’s experience with the product\n\nSet up a set of techniques to help dig into the user experience, e.g. user experience research — users are not finishing a class — dig into the reason- quit too difficult, video of class too long?\nFor some experiences, might not have the information you need. E.g. (1) do students have improved skills — very nebulous and cannot measure it takes too long to get the information,(2) Do students get jobs after taking the class? — It could be more than 6 months, and the experiment is too short for getting such information.\n\n\nHow to Define Metrics\n\nHigh-level concepts. A one-sentence summary that everyone can understand — e.g. active users, click-through-probability\nDefine the details. What constitutes active users? The first page of the search results, or all the next pages? US only or globally? Removing spam or not? Latency — how long does it take a page to load: when does the first-byte load? Last byte load?\nTake all these individual data measurements and summarize them into a single metric, e.g. use median, sum, average, count, etc.\n\nSingle or multiple metrics?\n\nDepend on company culture and how comfortable people are with the data. If we want different teams to move towards the same goal, then we might want a single metric.\nIf we have multiple metrics, we can create a composite metric — objective function or OEC (overall evaluation criteria - a weighted function that combines all these metrics)\nDo not suggest using composite metric because(1) hard to define and get agreements from different groups (2) can run into problems if you over-optimize looking into one thing and do not look at others (3) when the metric moves, people will come in and ask why it moves, and have to go back and check individual metric anyway\nBetter to design a less optimal metric applicable to the whole suite of AB tests, than a perfect metric.\n\nExample — Funnel plot to create metrics\n\nThere might be swirls — customers from the later layer of the funnel go back to the earlier step — e.g. students finished lesson 2 of a course and enrolled in a different course.\nTrack steps across different platforms — phone vs. computer\nTrack the progress of the funnel across platforms\nKeep the counts at key steps (e.g. visit home pages, enroll in courses), and calculate rates at other steps.\n\nGathering Additional Data\n\nUser Experience Research (UER): 👍Good for brainstorming, can use special equipment. 😔 Want to validate results, often only a few users but can go very deep, special equipment — e.g. special camera to capture eye movement\nFocus Groups: 👍 Can show screenshots of images, walk through the demo and ask questions, including hypothesis questions, get feedback on the hypothesis. 😔 Run the risk of group thinking, more users but less deep\nSurveys: 👍 How many students get jobs after the course — whether the course contributes to them finding jobs, useful for metrics you cannot directly measure. 😔 Can’t directly compare to other results\n\nFiltering and Segmenting\n\nExternal factors to consider: competitor clicking through your website on everything, someone malicious trying to mess up your metric, additional traffic caused by a new experiment,… Need to at least flag and identify these issues, and eventually filter them out\nInternal factors to consider: some changes only impact a subset of your traffic (e.g. region), or only impact some platforms — then need to filter only the affected traffic/platform\n\n\nHow to tell if the data is biased or not?\nSegmenting the data, and calculating the metric on these various disjoint segments (e.g. country, language, platform). See if the traffic is moved disproportionally across segments and makes sense.\nLook at Day over Day or Week over Week traffic pattern changes to identify things that are unusual.\n\nSummary statistics\n\nSums and Counts — e.g. number of users who visit the website\nDistributional metrics — e.g. means, median, percentiles\nRates or probabilities\nRatio — range of different business models, but it is very hard to categorize",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Aggregation"
+    ]
+  },
+  {
+    "objectID": "posts/l3.html#sensitivity-robustness",
+    "href": "posts/l3.html#sensitivity-robustness",
+    "title": "Lesson 3 - Choosing and Characterizing Metrics",
+    "section": "Sensitivity & Robustness",
+    "text": "Sensitivity & Robustness\nMetric should pick up the changes you care about (sensitivity), and do not pick up the changes that you do not care about (robustness). e.g. Mean is sensitive to outliers and heavily influenced by these observations. The Median is less sensitive and more robust, but if you only affect a fraction of users, even a large fraction like 20%, the median might not change. How to measure sensitivity and robustness?\n\nExperiment\n\nRun experiments or use experiments already have. E.g. Latency — increase the quality of the video (increase the load time for users), and see if the metric responds to that. Can look back at the experiments run by your company earlier — see if these experiments move the metrics you are interested in\nA/A experiment. Compare people seeing the same thing to each other. See if the metric picks up the difference between the two. Make sure you don’t call things significant that do not mean anything\n\n\n\nRetrospective analysis (to test if the metric is over-sensitive and catch spurious differences)\nLook back at the changes on your website, and see if the metrics you are interested in move-in conjunction with these changes.\nOr can look at the history of the metrics and see if there is anything that causes these changes.\nPlot the distribution check mean/median/each quantile and see which one is more suitable\nAbsolute change or relative change to compute the difference between the experiment and control:\n\nAbsolute difference: if you are getting started with the experiment and want to understand the possible metrics % change advantage: only need to pick one practical significance boundary to get stability over time (e.g. seasonality, shopping behavior)",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Aggregation"
+    ]
+  },
+  {
+    "objectID": "posts/l3.html#variability-metrics-distribution-variance-for-sanityinvariability-check-or-how-to-size-your-experiment",
+    "href": "posts/l3.html#variability-metrics-distribution-variance-for-sanityinvariability-check-or-how-to-size-your-experiment",
+    "title": "Lesson 3 - Choosing and Characterizing Metrics",
+    "section": "Variability: Metrics’ distribution & variance (for sanity/invariability check, or how to size your experiment)",
+    "text": "Variability: Metrics’ distribution & variance (for sanity/invariability check, or how to size your experiment)\nDifferent metrics might have different variabilities. For some metrics, their variability is so high and it’s not practical to use them in the experiment even if the metric makes a lot of business or product sense.\nTo calculate the variability, we need to understand the distribution of the underlying data and do the calculation by using analytical or empirical techniques.\nFor median and ratios, the distribution of median depends on the distribution of the underlying data. We can use non-parametric methods — analyze the data without making assumptions on what the distribution is.\nEmpirical Variances: For more complicated metrics, you might have to estimate the variance empirically than analytically. Use A/A test to estimate the empirical variance of the metrics. — Compare the difference so that the difference is driven by the underlying variability, such as system, user populations, etc. If you see a lot of variability in a metric in an A/A test, it might be too sensitive to use in the experiment.\nWhat if we don’t want to run a lot of A/A tests?\nUse Bootstrapping! Run one A/A test — although it is just one experiment, it is calculated from a lot of individual data points (individual clicks and page views). Take a random sample of data points from each side of the experiment, and calculate the click-through probability based on that random sample as if it was a full experimental group. Record the difference in click-through probability, and use that as a simulated experiment. Repeat this process multiple times, record the results, and use them as if they were from an actual experiment.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Aggregation"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "notes-ab-testing",
+    "section": "",
+    "text": "A/B Testing course\n\n\n\n\n\n\n\n\n\n\n\nJan 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 5 - Analyzing Results\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 4 - Designing an experiment\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 3 - Choosing and Characterizing Metrics\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 2 - Policy and Ethics for Experiments\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 1 - Overview of A/B Testing\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/l4.html",
+    "href": "posts/l4.html",
+    "title": "Lesson 4 - Designing an experiment",
+    "section": "",
+    "text": "udacity\nNotes from Udacity A/B Testing course.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Decision Models"
+    ]
+  },
+  {
+    "objectID": "posts/l4.html#choose-subject-unit-of-diversion",
+    "href": "posts/l4.html#choose-subject-unit-of-diversion",
+    "title": "Lesson 4 - Designing an experiment",
+    "section": "Choose “Subject” — Unit of Diversion",
+    "text": "Choose “Subject” — Unit of Diversion\nWe begin with two definitions:\n\nSubject\n\ndecide how to assign events to either the control or experiment\n\nUnit of diversion\n\nis how we define what an individual subject is in the experiment — look for proxy for users\n\n\nHow does one choose the unit of diversion?\n\nConsistency\n\nUser consistency:\n\nIf using user-id, users get a consistent experience as they change devices so long as they are signed in\nIf you test a change that crosses the sign-in and sign-out border, user-id might not work well.\ne.g. location of a sign-in bar, the layout of a page.\nIn such cases, the use of cookies can ensure consistency across sign-in and sign-out, but not across devices.\n\nUser Visibility: For user-visible changes, we should always consider using a user-id or cookie as unit of diversification. For changes not visible to users, such as latency changes, backend infrastructure changes, and rankings changes, should consider event-based diversification.\nwhat you want to measure:\n\nLearning effect does a learner adapts to change? Might still want to use user-id or cookie.\nLatency - does the user uses the site less — might still choose user id or cookie although the change is not visible. Totally depends on the measurement you are trying to get.\n\n\nEthical Considerations\n\nIf you use user id, then it is person identifiable, and there will be security and confidentiality concerns to address, and might need to get user consent. This is less of an issue for cookie-based diversion.\n\nVariability Considerations\n\nUnit of analysis (what is the denominator of your metric) needs to be consistent with unit of diversion. Otherwise, the actual variability might be a lot different than what was calculated analytically. This is because when calculating the analytical variability, you are assuming: the distribution of the underlying data, what is independent.\nIf you use event-based diversion, you assume each event is independent. But if you use user id or cookie-based diversion, the independence assumption is no longer valid, as you are diverting groups of events and they are correlated.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Decision Models"
+    ]
+  },
+  {
+    "objectID": "posts/l4.html#choose-population-who-is-eligible",
+    "href": "posts/l4.html#choose-population-who-is-eligible",
+    "title": "Lesson 4 - Designing an experiment",
+    "section": "Choose “Population” (who is eligible)",
+    "text": "Choose “Population” (who is eligible)\n\nInter-user experiments: different users on A and B sides\nIntra-user experiments: expose the same user to this feature on and off over time, and analyze how users behave in different time windows.\n\nNotes:\n\nNeed to choose a comparable time window.\nWith a lot of features, there might be frustration or learning problems, where users learn to use the particular features in the first two weeks, and ask why when you turn it off.\n\n\nRank order list — can run interleaved experiments where you expose the same users to A and B at the same time.\nInterleaved experiments: Suppose you have two ranking algorithms, X and Y. Algorithm X would show results X1, X2, … XN in that order, and algorithm Y would show Y1, Y2, … YN. An interleaved experiment would show some interleaving of those results, for example, X1, Y1, X2, Y2, … with duplicate results removed. One way to measure this would be by comparing the click-through rate or -probability of the results from the two algorithms.\n\n\nTarget Population\nNeed to decide in advance who you are targeting in your users — there are some easy divisions to consider, such as browsers, geo locations, country, language, etc.\n\nHigh-profile launch — want to restrict the number of people who see it before the official launch to avoid press coverage.\nIf we want to run internationally, need to check if the language is correct.\nAvoid overlapping between various experiments\nOnly run your experiment on the affected traffic. Filtering the traffic might affect the variability as well. Running the experiment with global data with unaffected population included might dilute the changes.\n\nCases in which don’t choose particular traffic:\n\nWant to test the effect across the global population as not sure if you can target correctly\n90% of the total traffic might be affected, and does not worth the trouble to find the specific target\nNeed to check with the engineering team to better understand the features. Concern for potential interactions so that we might want to run a global experiment.\nUse the same filters for the target and untargeted of the experiments.\nBefore launching a big change, run a global experiment to make sure you do not have an unintentional effect on the traffic you were not targeting\n\n\n\nPopulation and Cohort\nWe should now define a Cohort\n\nCohorts\n\na subset of populations for users entering the experiment at the same time\n\n\nThis\n\nDefine an “entering class”, and only look at users entering both sides at the same time.\nCan also use other information to define cohort — e.g. users who have been using your site consistently for 2 months, users with both laptop and mobile associated with their user ID, etc.\nTypically, cohorts are used when looking for user stability (e.g. measure learning effects, examine user retention, increase user activity, anything requiring users to be established), when you want to observe how your change affects users’ behaviors instead of their history.\nOne cannot use a cohorts that started the courses prior to the start of the experiment, as they may have completed the course or lesson already.\nOne cannot use a cohorts from before the experiment starts for control either as there might be some other system changes that affect the experience.\n\\(\\implies\\) One must use cohorts of users that start after the course after the experiment starts, and split them between control and experiment groups.\n\nWhile the basic definition of a cohort has the advantage of removing temporal bias from within the group, we frequently prefer to study groups from different times. What can be very useful is to consider cohort enrollment triggered by a some event. I.e. enrollment would be by registration or by first purchase. We would then compare members of these group by tracking their behavior using time following the enrolment. This has the added advantage of allow us to enroll more and more people into the cohort to achieve a statistical power goals.\n\n\nSize\n\nHow to reduce the size of an experiment:\n\nIncrease α，β or d_min\nmake the unit of diversion and unit of analysis the same;\nshrink it to specific traffic that is only affected, exclude the traffic that will dilute the experiment effect\n\nThere might be cases in which you don’t know which fraction of the population is going to be affected by the changes of the feature — need to be conservative about the time needed for the experiment. Can run a pilot experiment, or just observe the experiment for the first couple of weeks to check which fraction is affected.\n\n\n\nDuration and Exposure\nThe duration of the experiment is related to the percentage of traffic you are sending to experiment and control each day. More traffic per day, less time.\n\nSafety consideration: e.g. new feature and not sure how users will react. So keep the site the same to most people and only expose it to a small portion of people.\nRun a small percentage on every day including weekdays and weekends, instead of a single day (especially holidays) to account for other sources of variability.\n\n\n\nLearning Effect — Users adapt to the changes.\n\nChoose the unit of diversion correctly to capture this, such as user id and cookie.\nLearning is also about how often (dosage) users see the change. Use a cohort instead of the entire population, based on how often they have been exposed to the change or how long they have seen it.\nFor a high-risk change, run through a small portion of users over a longer period of time.\nPre-period and post-period: A/A tests before and after the experiment. Differences observed in the post-period can attribute to the learning effect.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Decision Models"
+    ]
+  },
+  {
+    "objectID": "posts/l6.html",
+    "href": "posts/l6.html",
+    "title": "A/B Testing course",
+    "section": "",
+    "text": "The Final Project for the Udacity A/B Testing course is to design an A/B test for Udacity. The project is graded based on the following rubric.\n\nA/B Testing Final Project Rubric\n\n\n\n\n\n\n\n\nCriteria\nMeets Specifications\nExceeds Specifications\n\n\n\n\nMetric Choice\n\n\n\n\nHas the student chosen good invariant and evaluation metrics for the experiment?\nThe student chose a good set of metrics for the experiment, and did not miss any necessary or valuable metrics.\nN/A\n\n\nHas the student given a well-reasoned justification of their choice of metrics?\nAll metrics had clear and well-reasoned explanations of why they were or were not chosen.\nN/A\n\n\nHas the student stated for which results they would launch the experiment?\nThe student clearly stated what results they were looking for to launch the experiment, and the stated results were aligned with the experiment goals.\nN/A\n\n\nVariability\n\n\n\n\nIs the standard deviation for all evaluation metrics correctly calculated?\nThe standard deviation for all evaluation metrics is correctly calculated.\nN/A\n\n\nHas the student correctly reasoned about whether each analytic standard deviation is likely to be accurate?\nEach evaluation metric has a clear and correct explanation of whether the analytic variability is likely to match the empirical variability.\nN/A\n\n\nSizing\n\n\n\n\nDoes the number of pageviews correctly take into account the planned analysis?\nThe number of pageviews given is correct given the students choice of whether to use the Bonferroni correction.\n\n\n\nHas an appropriate level of exposure for the experiment been chosen based on the risk?\nThe student has made a well-reasoned argument about how risky the experiment will be and chosen a fraction of traffic to divert accordingly.\nN/A\n\n\nDoes the duration of the experiment correctly take the exposure chosen into account?\nThe duration of the experiment is correctly calculated given the fraction of traffic the student chose to divert.\nN/A\n\n\nSanity Checks\n\n\n\n\nHas the student correctly performed sanity checks?\nThe student has correctly calculated sanity checks for all chosen invariant metrics.\nN/A\n\n\nHas the student taken the sanity checks into account?\nAll sanity checks passed or the student did not proceed to the rest of the experiment and analyzed why the sanity checks may have failed.\nN/A\n\n\nEffect Size Tests\n\n\n\n\nHas the student calculated confidence intervals around the difference of all evaluation metrics?\nCorrectly calculated confidence intervals have been reported for the difference in all evaluation metrics.\nN/A\n\n\nHas the student correctly evaluated statistical and practical significance?\nStatistical and practical significance have been correctly reported for all evaluation metrics.\nN/A\n\n\nSign Tests\n\n\n\n\nHas the student correctly reported a sign test p-value for each evaluation metric and indicated whether the sign test is statistically significant?\nP-value and statistical significance have been correctly reported for all evaluation metrics.\nN/A\n\n\nResults Summary\n\n\n\n\nHas the student correctly chosen whether to use the Bonferroni correction?\nThe student has given good justification for their choice of whether to use the Bonferroni correction.\nN/A\n\n\nHas the student correctly analyzed all discrepancies between the effect size tests and the sign tests?\nThe student has given well-reasoned and plausible explanations for each discrepancy between the effect size tests and the sign tests.\nN/A\n\n\nRecommendation\n\n\n\n\nHas the student made a well-reasoned recommendation based on the results of the experiment?\nThe student has made a recommendation that is well reasoned and supported by the data.\nN/A\n\n\nFollow-Up Experiment\n\n\n\n\nHas the student chosen a plausible experiment for the purpose given with a clearly stated hypothesis?\nThe student has described a plausible experiment that would be worth testing and the hypothesis is clearly stated.\nThe student has described a creative or innovative change that Udacity would be happy to test.\n\n\nHas the student chosen good metrics to evaluate the proposed experiment with good reasoning to support them?\nThe metrics the student has chosen will be sufficient to evaluate the hypothesis of the experiment, would be possible to measure under most infrastructures, and are well-supported by the students reasoning.\nN/A\n\n\nHas the student chosen a well-reasoned unit of diversion for the experiment?\nThe student has chosen a reasonable unit of diversion and given good support for their choice.\nN/A",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Categorical and Linear Models"
+    ]
+  },
+  {
+    "objectID": "posts/l1.html",
+    "href": "posts/l1.html",
+    "title": "Lesson 1 - Overview of A/B Testing",
+    "section": "",
+    "text": "udacity\nNotes from Udacity A/B Testing course, I took this course around the time it first launched. The course is about planning and analyzing A/B tests - not about implementing A/B testing using a specific framework.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Why Model?"
+    ]
+  },
+  {
+    "objectID": "posts/l1.html#instructors",
+    "href": "posts/l1.html#instructors",
+    "title": "Lesson 1 - Overview of A/B Testing",
+    "section": "Instructors:",
+    "text": "Instructors:\n\nCarrie Grimes Bostock Googler,\nCaroline Buckey Polaris Googler,\n\nDiane Tang Googler.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Why Model?"
+    ]
+  },
+  {
+    "objectID": "posts/l1.html#lesson-1-overview-of-ab-testing",
+    "href": "posts/l1.html#lesson-1-overview-of-ab-testing",
+    "title": "Lesson 1 - Overview of A/B Testing",
+    "section": "Lesson 1: Overview of A/B Testing",
+    "text": "Lesson 1: Overview of A/B Testing\nThe Instructors gave the following examples of A/B testing from the industry:\n\nGoogle tested 41 different shades of blue.\nAmazon initially decided to launch their first personalized product recommendations based on an A/B test showing a huge revenue increase by adding that feature. (See the second paragraph in the introduction.)\nLinkedIn tested whether to use the top slot on a user’s stream for top news articles or an encouragement to add more contacts. (See the first paragraph in “A/B testing with view based JSON” section.)\nAmazon determined that every 100ms increase in page load time decreased sales by 1%. (In “Secondary metrics” section on the last page) Google’s latenc resultsy showed a similar impact for a 100ms delay.\nKayak tested whether notifying users that their payment was encrypted would make users more or less likely to complete the payment.\nKhan Academy tests changes like letting students know how many other students are working on the exercise with them, or making it easier for students to fast-forward past skills they already have. (See the question “What is the most interesting A/B test you’ve seen so far?”)\n\n\nMetrics Difference between click-through rate and click-through probability?\n\nCTR is used to measure usability e.g. how easy to find the button, \\(\\frac{ \\text { click}}{\\text{ page views}}\\).\nCTP is used to measure the impact \\(\\frac{ \\text {unique visitors click}}{\\text{ unique visitors view the page}}\\).\n\nStatistical significance and practical significance\n\nStatistical significance is about ensuring observed effects are not due to chance.\nPractical significance depends on the industry e.g. medicine vs. internet.\nStatistical significance\n\n\\(\\alpha\\): the probability you happen to observe the effect in your sample if \\(H_0\\) is true.\nSmall sample: \\(\\alpha\\) low, \\(\\beta\\) high.\nLarger sample, \\(\\alpha\\) same, \\(\\beta\\) lower\nany larger change than your practical significant boundary will have a lower \\(\\beta\\), so it will be easier to detect the significant difference.\n\\(1-\\beta\\) also called sensitivity\n\n\nHow to calculate sample size?\n\nUse this calculator, input baseline conversion rate, minimum detectable effect (the smallest effect that will be detected \\((1-\\beta)%\\) of the time), alpha, and beta.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Why Model?"
+    ]
+  },
+  {
+    "objectID": "posts/l1.html#python-modelling",
+    "href": "posts/l1.html#python-modelling",
+    "title": "Lesson 1 - Overview of A/B Testing",
+    "section": "Python Modelling",
+    "text": "Python Modelling\n\nBinomeal Distribution\n\nimport numpy as np\nimport matplotlib.pyplot\nimport seaborn as sns\nfrom collections  import Counter\nn_trials = 10\np=3/4\nsize=1000\nx= np.random.binomial(n=n_trials, p=p, size=size)\nfreqs = Counter(x)\n##probs = freqs/size\n##print(probs)\n##sns.distplot(x, kde=True)\nsns.histplot(x, kde=False, stat='density',binwidth=1.0,fill=False)\n\n\n\n\n\n\n\n\n\n\nEstimate mean and standard deviation\n\nnp.set_printoptions(formatter={'float':\"{0:0.2f}\".format})\nnp.set_printoptions(precision=2)\nmean =  np.round(x.mean(),2)\nmean_theoretical =  np.round(n_trials* p,2)\nwidth=6\nprint(f'mean {mean: &lt;{width}} mean_theoretical  {mean_theoretical}')\nvariance =  np.round(x.var(),2)\nvariance_theoretrical =  np.round(n_trials* p * (1-p),2)\nprint(f'var  {variance: &lt;{width}} var_theoretrical  {variance_theoretrical}')\nsd =  np.round(x.std(),2)\nsd_theoretical = np.round(np.sqrt(variance_theoretrical),2)\nprint(f'sd   {sd: &lt;{width}} sd_theoretical    {sd_theoretical}')\n##TODO can we do it with PYMC, in a tab\n\nmean 7.47   mean_theoretical  7.5\nvar  1.93   var_theoretrical  1.88\nsd   1.39   sd_theoretical    1.37\n\n\n\n\nEstimating p from data\n\nsize = 10\nn_trials=10\np= np.random.uniform(low=0.0, high=1.0)\nx= np.random.binomial(n=n_trials, p=p, size=size)\np=round(p,3)\np_est=np.round(x.mean()/n_trials,3)\np_b_est=np.round((x.mean()+1)/(n_trials+2),3) ## baysian estimator\nprint(f'{p=} {p_est=} {p_b_est=}')\nprint(f'\\t {np.round(np.abs(p-p_est),3)} {np.round(np.abs(p-p_b_est),3)}')\n\np=0.162 p_est=0.1 p_b_est=0.167\n     0.062 0.005\n\n\n\n\nEstimating Confidece Intervals\n\nn=n_trials\nconfidence = 95/100\nalpha=1-confidence\nz=1-(1/2)*alpha\nci=np.round(z+np.sqrt(p_est*(1-p_est)/n_trials),2)\nprint(f'{alpha=},{z=}')\nprint(f'[-{ci},{ci}] wald ci')\nz_lb=1-(1/2)*alpha\nz_ub=1-(1/2)*(1-alpha)\nprint(f'{alpha=},{z_lb=},{z_ub=}')\nlb_wilson=(p_est+z_lb*z_lb/(2*n)+z_lb*np.sqrt(p_est*(1-p_est)/n + z_lb*z_lb/(4*n)))/(1+z_lb*z_lb/n)\nub_wilson=(p_est+z_ub*z_ub/(2*n)+z_ub*np.sqrt(p_est*(1-p_est)/n + z_ub*z_ub/(4*n)))/(1+z_ub*z_ub/n)\nprint(f'[-{lb_wilson},{ub_wilson}] wilson ci')\n\nalpha=0.050000000000000044,z=0.975\n[-1.07,1.07] wald ci\nalpha=0.050000000000000044,z_lb=0.975,z_ub=0.525\n[-0.2958906056936498,0.17513456528071358] wilson ci",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Why Model?"
+    ]
+  },
+  {
+    "objectID": "posts/l1.html#resources",
+    "href": "posts/l1.html#resources",
+    "title": "Lesson 1 - Overview of A/B Testing",
+    "section": "Resources",
+    "text": "Resources\n\nA/B testing article on Wikipedia.\nThese notes were influenced by Joanna",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Why Model?"
+    ]
+  }
+]
