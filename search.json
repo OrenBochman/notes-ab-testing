@@ -168,6 +168,90 @@
     ]
   },
   {
+    "objectID": "posts/l7.html",
+    "href": "posts/l7.html",
+    "title": "A/B Testing Template Format",
+    "section": "",
+    "text": "List which metrics you will use as invariant metrics and evaluation metrics here. (These should be the same metrics you chose in the “Choosing Invariant Metrics” and “Choosing Evaluation Metrics” quizzes.)\nFor each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.\n\n\n\nList the standard deviation of each of your evaluation metrics. (These should be the answers from the “Calculating standard deviation” quiz.)\nFor each of your evaluation metrics, indicate whether you think the analytic estimate would be comparable to the the empirical variability, or whether you expect them to be different (in which case it might be worth doing an empirical estimate if there is time). Briefly give your reasoning in each case.\n\n\n\nNumber of Samples vs. Power\nIndicate whether you will use the Bonferroni correction during your analysis phase, and give the number of pageviews you will need to power you experiment appropriately. (These should be the answers from the “Calculating Number of Pageviews” quiz.)\nDuration vs. Exposure\nIndicate what fraction of traffic you would divert to this experiment and, given this, how many days you would need to run the experiment. (These should be the answers from the “Choosing Duration and Exposure” quiz.)\nGive your reasoning for the fraction you chose to divert. How risky do you think this experiment would be for Udacity?",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#metric-choice",
+    "href": "posts/l7.html#metric-choice",
+    "title": "A/B Testing Template Format",
+    "section": "",
+    "text": "List which metrics you will use as invariant metrics and evaluation metrics here. (These should be the same metrics you chose in the “Choosing Invariant Metrics” and “Choosing Evaluation Metrics” quizzes.)\nFor each metric, explain both why you did or did not use it as an invariant metric and why you did or did not use it as an evaluation metric. Also, state what results you will look for in your evaluation metrics in order to launch the experiment.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#measuring-standard-deviation",
+    "href": "posts/l7.html#measuring-standard-deviation",
+    "title": "A/B Testing Template Format",
+    "section": "",
+    "text": "List the standard deviation of each of your evaluation metrics. (These should be the answers from the “Calculating standard deviation” quiz.)\nFor each of your evaluation metrics, indicate whether you think the analytic estimate would be comparable to the the empirical variability, or whether you expect them to be different (in which case it might be worth doing an empirical estimate if there is time). Briefly give your reasoning in each case.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#sizing",
+    "href": "posts/l7.html#sizing",
+    "title": "A/B Testing Template Format",
+    "section": "",
+    "text": "Number of Samples vs. Power\nIndicate whether you will use the Bonferroni correction during your analysis phase, and give the number of pageviews you will need to power you experiment appropriately. (These should be the answers from the “Calculating Number of Pageviews” quiz.)\nDuration vs. Exposure\nIndicate what fraction of traffic you would divert to this experiment and, given this, how many days you would need to run the experiment. (These should be the answers from the “Choosing Duration and Exposure” quiz.)\nGive your reasoning for the fraction you chose to divert. How risky do you think this experiment would be for Udacity?",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#sanity-checks",
+    "href": "posts/l7.html#sanity-checks",
+    "title": "A/B Testing Template Format",
+    "section": "Sanity Checks",
+    "text": "Sanity Checks\nFor each of your invariant metrics, give the 95% confidence interval for the value you expect to observe, the actual observed value, and whether the metric passes your sanity check. (These should be the answers from the “Sanity Checks” quiz.)\nFor any sanity check that did not pass, explain your best guess as to what went wrong based on the day-by-day data. Do not proceed to the rest of the analysis unless all sanity checks pass.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#result-analysis",
+    "href": "posts/l7.html#result-analysis",
+    "title": "A/B Testing Template Format",
+    "section": "Result Analysis",
+    "text": "Result Analysis\n\nEffect Size Tests\nFor each of your evaluation metrics, give a 95% confidence interval around the difference between the experiment and control groups. Indicate whether each metric is statistically and practically significant. (These should be the answers from the “Effect Size Tests” quiz.)\n\n\nSign Tests\nFor each of your evaluation metrics, do a sign test using the day-by-day data, and report the p-value of the sign test and whether the result is statistically significant. (These should be the answers from the “Sign Tests” quiz.)\n\n\nSummary\nState whether you used the Bonferroni correction, and explain why or why not. If there are any discrepancies between the effect size hypothesis tests and the sign tests, describe the discrepancy and why you think it arose.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
+    "objectID": "posts/l7.html#recommendation",
+    "href": "posts/l7.html#recommendation",
+    "title": "A/B Testing Template Format",
+    "section": "Recommendation",
+    "text": "Recommendation\nMake a recommendation and briefly describe your reasoning.",
+    "crumbs": [
+      "Home",
+      "Lessons",
+      "Tipping Points"
+    ]
+  },
+  {
     "objectID": "posts/l3.html",
     "href": "posts/l3.html",
     "title": "Lesson 3 - Choosing and Characterizing Metrics",
@@ -227,7 +311,7 @@
     "href": "index.html",
     "title": "notes-ab-testing",
     "section": "",
-    "text": "A/B Testing course\n\n\n\n\n\n\n\n\n\n\n\nJan 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 5 - Analyzing Results\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 4 - Designing an experiment\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 3 - Choosing and Characterizing Metrics\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 2 - Policy and Ethics for Experiments\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 1 - Overview of A/B Testing\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "A/B Testing Template Format\n\n\n\n\n\n\n\n\n\n\n\nJan 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nA/B Testing course\n\n\n\n\n\n\n\n\n\n\n\nJan 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 5 - Analyzing Results\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 4 - Designing an experiment\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 4, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 3 - Choosing and Characterizing Metrics\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 2 - Policy and Ethics for Experiments\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 2, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLesson 1 - Overview of A/B Testing\n\n\n\n\n\n\na/b-testing\n\n\nnotes\n\n\n\nNotes from Udacity A/B Testing course\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/l4.html",
